@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FacedetectionTracker</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="mask">面具</string>
+    <string name="shibie">识别</string>
+    <string name="jiance">检测</string>
+    <string name="makeup">美颜</string>
+    <string name="normal">普通</string>
+    <string name="whitening">美白</string>
+    <string name="bigeye">大眼</string>
+    <string name="redlips">红唇</string>
+    <string name="slim_face">瘦脸</string>
+
+    <string name="positive">确认</string>
+    <string name="negative">取消</string>
+    <string name="cameraResolution">请选择摄像头分辨率</string>
+    <string name="restart">请重启应用</string>
+    <string name="sex">性别</string>
+    <string name="smile">笑脸</string>
+    <string name="age">年龄</string>
+    <string name="withglass">是否戴眼镜</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="unknown">未知</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FacedetectionTracker</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="mask">Mask</string>
+    <string name="shibie">identification</string>
+    <string name="jiance">detect</string>
+    <string name="makeup">makeup</string>
+    <string name="normal">none</string>
+    <string name="whitening">whitening</string>
+    <string name="bigeye">big eye</string>
+    <string name="redlips">red lips</string>
+    <string name="slim_face">slimface</string>
+    <string name="positive">confirm</string>
+    <string name="negative">cancel</string>
+    <string name="cameraResolution">Please select the camera resolution</string>
+    <string name="restart">Please restart app</string>
+    <string name="sex">Sex</string>
+    <string name="smile">Smile</string>
+    <string name="age">Age</string>
+    <string name="withglass">withglass</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="unknown">unknown</string>
+</resources>

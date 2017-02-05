@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.sky.facedetectiontrackerdemo.FaceDetectionActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true">
+
+        <fragment
+            android:id="@+id/FaceOverlyFragment"
+            class="com.sky.facedetectiontrackerdemo.view.FaceOverlyFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <include
+            android:id="@+id/layout_facemask"
+            layout="@layout/face_mask" />
+    </FrameLayout>
+
+
+    <include
+        android:id="@+id/debug_info"
+        layout="@layout/debug_info" />
+
+
+    <ListView
+        android:id="@+id/func_option_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:animationCache="false"
+        android:divider="@null"
+        android:scrollingCache="false" />
+
+
+    <ListView
+        android:id="@+id/mask_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1680px"
+        android:animationCache="false"
+        android:scrollingCache="false"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

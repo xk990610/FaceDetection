@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:layout_gravity="right"
+    android:clickable="false"
+    android:gravity="right"
+    android:visibility="invisible">
+
+    <RelativeLayout
+        android:id="@+id/layout_makeup_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp">
+
+        <ImageView
+            android:id="@+id/btn_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_meiy_pt_nor"
+            android:layout_centerHorizontal="true"
+            android:onClick="onMakeupClick"/>
+
+        <TextView
+            android:id="@+id/tv_normal"
+            android:textSize="20sp"
+            android:textColor="#a3a3a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_normal"
+            android:text="@string/normal"
+            android:layout_centerHorizontal="true"
+            android:onClick="onMakeupClick"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_makeup_whitening"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/layout_makeup_normal"
+        android:layout_alignTop="@id/layout_makeup_normal">
+
+        <ImageView
+            android:id="@+id/btn_whitening"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_meiy_mb_nor"
+            android:layout_centerHorizontal="true"
+            android:onClick="onMakeupClick"/>
+
+        <TextView
+            android:id="@+id/tv_whitening"
+            android:textSize="20sp"
+            android:textColor="#a3a3a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_whitening"
+            android:text="@string/whitening"
+            android:layout_centerHorizontal="true"
+            android:onClick="onMakeupClick"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_makeup_bigeye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/layout_makeup_whitening"
+        android:layout_alignTop="@id/layout_makeup_whitening">
+
+        <ImageView
+            android:id="@+id/btn_bigeye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_meiy_dy_nor"
+            android:layout_centerHorizontal="true"
+            android:onClick="onMakeupClick"/>
+
+        <TextView
+            android:id="@+id/tv_bigeye"
+            android:textSize="20sp"
+            android:textColor="#a3a3a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_bigeye"
+            android:text="@string/bigeye"
+            android:layout_centerHorizontal="true"
+            android:onClick="onMakeupClick"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_makeup_redlips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/layout_makeup_bigeye"
+        android:layout_alignTop="@id/layout_makeup_bigeye">
+
+        <ImageView
+            android:id="@+id/btn_redlips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_meiy_hc_nor"
+            android:layout_centerHorizontal="true"
+            android:onClick="onMakeupClick"/>
+
+        <TextView
+            android:id="@+id/tv_redlips"
+            android:textSize="20sp"
+            android:textColor="#a3a3a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_redlips"
+            android:text="@string/redlips"
+            android:layout_centerHorizontal="true"
+            android:onClick="onMakeupClick"/>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/layout_makeup_slimface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/layout_makeup_redlips"
+        android:layout_alignTop="@id/layout_makeup_redlips">
+
+        <ImageView
+            android:id="@+id/btn_slimface"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_meiy_sl_nor"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/tv_slimface"
+            android:textSize="20sp"
+            android:textColor="#a3a3a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_slimface"
+            android:text="@string/slim_face"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</LinearLayout>
